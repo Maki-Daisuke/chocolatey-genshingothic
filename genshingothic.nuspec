@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>genshingothic</id>
+    <version>1.002.20150607</version>
+    <packageSourceUrl>https://github.com/Maki-Daisuke/chocolatey-genshingothic</packageSourceUrl>
+    <owners>Daisuke (yet another) Maki</owners>
+    <title>Genshin Gothic</title>
+    <authors>MM</authors>
+    <projectUrl>http://jikasei.me/font/genshin/</projectUrl>
+    <copyright>© 2014 自家製フォント工房 by MM</copyright>
+    <licenseUrl>http://jikasei.me/font/genshin/#_7</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>genshin font gothic propotional mono monospace</tags>
+    <summary>CJK font derived from Source Han Sans</summary>
+    <description>Genshin Gothic is a font derived from Source Han Sans.
+Genshin Gothic is provided in TTF format, whereas Source Han Sans is provided in OTF format.
+In addition, Genshin Gothic modifies Source Han Sans to make it easier to use as a propotional font.
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
